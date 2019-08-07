@@ -12,7 +12,7 @@ export default class App extends React.Component {
   };
   componentDidMount = async () => {
     await Font.loadAsync({
-      MontserratExtraBold: require("./assets/fonts/Montserrat-ExtraBold.ttf")
+      "montserrat-extra-bold": require("./assets/fonts/Montserrat-ExtraBold.ttf")
     });
     this.setState({ isReady: true });
   };
