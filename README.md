@@ -1,19 +1,11 @@
-# NativeScript-Vue Application
-
-> A native application built with NativeScript-Vue
+# Scooter
+> Hands off
 
 ## Usage
 
-``` bash
+``` 
 # Install dependencies
-npm install
+yarn install eller npm install 
 
-# Build for production
-tns build <platform> --bundle
-
-# Build, watch for changes and debug the application
-tns debug <platform> --bundle
-
-# Build, watch for changes and run the application
-tns run <platform> --bundle
-```
+# Run
+yarn run start eller npm run start
